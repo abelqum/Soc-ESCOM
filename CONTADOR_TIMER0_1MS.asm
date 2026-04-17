@@ -24,7 +24,7 @@ loop:
     rjmp loop
 
 cambio:
-    ldi aux, 192
+    ldi aux, 194
     out tcnt0, aux
     in aux, pina
     eor aux, uno
